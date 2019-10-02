@@ -136,6 +136,8 @@ header .nav-bottom .hamburger {
 
   header {
     background: transparent;
+    position: absolute;
+    top: 0;
   }
 
   header .nav-top {
