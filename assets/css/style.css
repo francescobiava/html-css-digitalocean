@@ -7,4 +7,65 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* header */
+header {
+  background-color: #fff;
+  padding: 0 25px;
+}
+
+header .nav-top {
+  width: 100%;
+}
+
+header .nav-top .left {
+  width: 50%;
+  float: left;
+}
+
+header .nav-top .right {
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+
+header .nav-top a {
+  display: inline-block;
+  font-size: 0.8em;
+  color: #808080;
+  margin: 15px 0;
+}
+
+header .nav-top .left span {
+  font-size: 0.9em;
+  margin-right: 5px;
+  background-color: #00d7d2;
+  padding: 2px 8px;
+  border-radius: 5px;
+  color: #000;
+}
+
+header .nav-top .left a:hover {
+  color: #0049ff;
+}
+
+header .nav-top .right li {
+  display: inline-block;
+  margin-left: 25px;
 }
