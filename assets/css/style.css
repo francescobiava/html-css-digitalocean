@@ -98,7 +98,7 @@ header .nav-bottom li {
 header .nav-bottom a {
   display: inline-block;
   font-size: 0.9em;
-  color: #000;
+  color: #031b4e;
   padding: 20px 0;
   margin: 0 10px;
 }
@@ -158,4 +158,118 @@ header .nav-bottom .hamburger {
   header .nav-bottom .hamburger {
     display: inline-block;
   }
+}
+
+/* section top */
+#section-top {
+  padding: 120px 50px 50px;
+  background-image: url(../img/bg-home.jpg);
+  background-size: cover;
+}
+
+#section-top .left {
+  width: 50%;
+  margin-right: 10%;
+  float: left;
+}
+
+#section-top .right {
+  width: 40%;
+  float: right;
+  text-align: center;
+}
+
+#section-top .left h1 {
+  font-size: 3.8em;
+  font-weight: 800;
+  color: #fff;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#section-top .left p {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #fff;
+  opacity: 0.6;
+}
+
+#section-top form {
+  margin-top: 25px;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+#section-top form h2 {
+  font-size: 1.8em;
+  font-weight: 800;
+  color: #031b4e;
+  margin-bottom: 15px;
+}
+
+#section-top .form-control {
+  width: 100%;
+  margin: 10px 0;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+#section-top .create-account {
+  width: 100%;
+  margin: 15px 0;
+  background-color: #0080ff;
+  color: #fff;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 15px;
+}
+
+#section-top .create-account:hover {
+  background-color: #1633ff;
+}
+
+#section-top form p {
+  color: #808080;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+#section-top form > a {
+  width: 40%;
+  display: inline-block;
+  color: #031b4e;
+  font-weight: 600;
+  background-color: #f2f8ff;
+  border: 1px solid rgba(0, 105, 255, 0.2);
+  border-radius: 5px;
+  padding: 10px 0;
+}
+
+#section-top form > a:last-child {
+  margin-left: 20px;
+}
+
+#section-top form .fa-google,
+#section-top form .fa-github {
+  margin-right: 10px;
+}
+
+#section-top form > a:hover {
+  background-color: #D5E4F7;
+}
+
+#section-top form .terms {
+  font-size: 0.7em;
+  font-weight: 400;
+  margin-top: 25px;
+}
+
+#section-top form .terms a {
+  color: #0080ff;
+  text-decoration: underline;
 }
