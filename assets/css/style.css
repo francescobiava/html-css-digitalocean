@@ -273,3 +273,29 @@ header .nav-bottom .hamburger {
   color: #0080ff;
   text-decoration: underline;
 }
+
+/* media query section-top */
+@media screen and (max-width:999px) {
+
+  #section-top .left h1 {
+  font-size: 3em;
+  }
+
+  #section-top form h2 {
+  font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  
+  #section-top .left {
+    width: 100%;
+    float: none;
+  }
+
+  #section-top .right {
+    width: 100%;
+    float: none;
+    margin-top: 50px;
+  }
+}
