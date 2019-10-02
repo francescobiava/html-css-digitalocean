@@ -26,12 +26,12 @@ li {
 
 /* header */
 header {
-  background-color: #fff;
-  padding: 0 25px;
+  background-color: #fff; 
 }
 
 header .nav-top {
   width: 100%;
+  padding: 0 25px;
 }
 
 header .nav-top .left {
@@ -62,10 +62,60 @@ header .nav-top .left span {
 }
 
 header .nav-top .left a:hover {
-  color: #0049ff;
+  color: #0080ff;
 }
 
 header .nav-top .right li {
   display: inline-block;
   margin-left: 25px;
+}
+
+header .nav-bottom {
+  width: 100%;
+  padding: 0 25px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+header .nav-bottom .left {
+  width: 80%;
+  float: left;
+}
+
+header .nav-bottom .right {
+  width: 20%;
+  float: right;
+  text-align: right;
+}
+
+header .nav-bottom li {
+  display: inline-block;
+}
+
+header .nav-bottom a {
+  display: inline-block;
+  font-size: 0.9em;
+  color: #000;
+  padding: 20px 0;
+  margin: 0 10px;
+}
+
+header .logo a {
+  color: #0080ff;
+  font-size: 1.5em;
+  font-weight: 800;
+  padding-top: 15px;
+}
+
+header .logo .fa-digital-ocean {
+  font-size: 1.5em;
+}
+
+header .nav-bottom .right a {
+  color: #0080ff;
+  font-weight: 800;
+  margin-top: 15px;
+  padding: 10px 15px;
+  border: 1px solid #0080ff;
+  border-radius: 5px;
 }
