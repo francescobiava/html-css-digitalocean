@@ -460,3 +460,38 @@ header .nav-bottom .hamburger {
     float: none;
   }
 }
+
+/* section developers */
+#developers {
+  padding: 100px 25px;
+  background-color: #f3f5f9;
+  text-align: center;
+}
+
+#developers h2 {
+  font-size: 2em;
+  font-weight: 800;
+  color: #031b4e;
+}
+
+#developers > p {
+  font-size: 1.2em;
+  color: rgba(3, 27, 78, 0.6);
+  margin: 10px 0;
+  line-height: 1.5em;
+}
+
+#developers .content {
+  width: 100%;
+  margin-top: 40px;
+}
+
+#developers img {
+  max-width: 100%;
+}
+
+#developers .content p {
+  font-size: 1em;
+  color: rgba(3, 27, 78, 0.6);
+  margin-top: 10px;
+}
