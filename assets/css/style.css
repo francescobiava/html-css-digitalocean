@@ -685,3 +685,30 @@ header .nav-bottom .hamburger {
   text-decoration: none;
   margin-bottom: 25px;
 }
+
+/* section get-started */
+#get-started {
+  padding: 50px 0;
+  background: url(../img/bg-home.jpg);
+  text-align: center;
+}
+
+#get-started h2 {
+  font-size: 2em;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+#get-started a {
+  font-size: 1em;
+  font-weight: 800;
+  color: #0080ff;
+  background-color: #fff;
+  padding: 12px 30px;
+  border-radius: 5px;
+}
+
+#get-started a:hover {
+  opacity: 0.8;
+}
