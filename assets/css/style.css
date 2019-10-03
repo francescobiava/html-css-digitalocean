@@ -498,7 +498,7 @@ header .nav-bottom .hamburger {
 
 /* section business */
 #business {
-  padding: 100px 0 100px 50px;
+  padding: 100px 0 50px 50px;
 }
 
 #business h2 {
@@ -516,6 +516,7 @@ header .nav-bottom .hamburger {
 #business .box {
   width: 25%;
   padding-right: 50px;
+  margin-bottom: 40px;
   float: left;
 }
 
@@ -537,4 +538,13 @@ header .nav-bottom .hamburger {
   display: block;
   margin: 20px 0;
   color: #0080ff;
+}
+
+/* media query section business */
+@media screen and (max-width: 767px) {
+
+  #business .box {
+    width: 100%;
+    float: none;
+  }
 }
