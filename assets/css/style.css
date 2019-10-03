@@ -385,6 +385,7 @@ header .nav-bottom .hamburger {
 #deploy-scale .left {
   width: 30%;
   float: left;
+  margin-bottom: 50px;
 }
 
 #deploy-scale .right {
@@ -429,4 +430,33 @@ header .nav-bottom .hamburger {
   font-size: 1em;
   font-weight: 400;
   color: rgba(3, 27, 78, 0.6);
+}
+
+/* media query section deploy-scale */
+@media screen and (max-width: 1050px) {
+
+  #deploy-scale {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  #deploy-scale .left,
+  #deploy-scale .right {
+    width: 100%;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 479px) {
+
+  #deploy-scale .box1,
+  #deploy-scale .box2,
+  #deploy-scale .box3,
+  #deploy-scale .box4 {
+    width: 100%;
+    float: none;
+  }
 }
