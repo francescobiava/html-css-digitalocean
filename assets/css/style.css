@@ -297,7 +297,7 @@ header .nav-bottom .hamburger {
 }
 
 @media screen and (max-width: 767px) {
-  
+
   #section-top .left {
     width: 100%;
     float: none;
@@ -355,4 +355,51 @@ header .nav-bottom .hamburger {
   #customers li {
     width: calc((100% / 2) - 4px);
   }
+}
+
+/* section deploy-scale */
+#deploy-scale {
+  padding: 100px 75px;
+}
+
+#deploy-scale > h2 {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 900;
+  color: #031b4e;
+}
+
+#deploy-scale > p {
+  text-align: center;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  font-weight: 400;
+  color: rgba(3, 27, 78, 0.6);
+  margin: 20px 0;
+}
+
+#deploy-scale .box-container {
+  margin: 50px 0;
+}
+
+#deploy-scale .left {
+  width: 30%;
+  float: left;
+}
+
+#deploy-scale .right {
+  width: 70%;
+  float: left;
+}
+
+#deploy-scale .left a {
+  display: block;
+  color: rgba(3, 27, 78, 0.5);
+  padding: 15px 25px;
+  border-left: 2px solid rgba(3, 27, 78, 0.2);
+}
+
+#deploy-scale .left a:hover {
+  color: #031b4e;
+  border-left: 2px solid #0080ff;
 }
