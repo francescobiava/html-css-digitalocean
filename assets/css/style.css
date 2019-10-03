@@ -495,3 +495,46 @@ header .nav-bottom .hamburger {
   color: rgba(3, 27, 78, 0.6);
   margin-top: 10px;
 }
+
+/* section business */
+#business {
+  padding: 100px 0 100px 50px;
+}
+
+#business h2 {
+  font-size: 2.5em;
+  font-weight: 800;
+  color: #031b4e;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#business img {
+  height: 50px;
+}
+
+#business .box {
+  width: 25%;
+  padding-right: 50px;
+  float: left;
+}
+
+#business .box h4 {
+  font-size: 1.2em;
+  font-weight: 800;
+  color: #031b4e;
+  margin: 10px 0;
+}
+
+#business .box p {
+  font-size: 1em;
+  line-height: 1.5em;
+  font-weight: 400;
+  color: rgba(3, 27, 78, 0.6);
+}
+
+#business .box a {
+  display: block;
+  margin: 20px 0;
+  color: #0080ff;
+}
