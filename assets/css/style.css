@@ -590,6 +590,7 @@ header .nav-bottom .hamburger {
 }
 
 #data-centers .col-1 {
+  width: 10%;
   font-size: 0.8em;
   font-weight: 800;
   text-transform: uppercase;
@@ -597,11 +598,13 @@ header .nav-bottom .hamburger {
 }
 
 #data-centers .col-2 {
+  width: 50%;
   font-size: 0.8em;
   color: rgba(255, 255, 255, 0.6);
 }
 
 #data-centers .col-3 {
+  width: 40%;
   text-align: right;
 }
 
