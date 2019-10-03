@@ -542,3 +542,72 @@ header .nav-bottom .hamburger {
     float: none;
   }
 }
+
+/* section data-centers */
+#data-centers {
+  padding: 100px 50px 50px;
+  background: #031b4e url(../img/data-center-map.svg);
+  background-size: cover;
+}
+
+#data-centers h2 {
+  color: #fff;
+  font-size: 2.5em;
+  font-weight: 800;
+  text-align: center;
+  margin: 0 150px 50px;
+}
+
+#data-centers .left {
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+
+#data-centers .right {
+  width: 48%;
+  float: left;
+}
+
+#data-centers table {
+  width: 100%;
+}
+
+#data-centers table {
+  border-collapse: collapse;
+}
+
+#data-centers table tr:not(:last-child) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#data-centers .col-1,
+#data-centers .col-2,
+#data-centers .col-3 {
+  padding: 10px;
+}
+
+#data-centers .col-1 {
+  font-size: 0.8em;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#data-centers .col-2 {
+  font-size: 0.8em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#data-centers .col-3 {
+  text-align: right;
+}
+
+#data-centers a {
+  font-size: 0.8em;
+  color: #00d7d2;
+}
+
+#data-centers a:hover {
+  color: #0080ff;
+}
