@@ -18,7 +18,7 @@ li {
   list-style-type: none;
 }
 
-.clearfix {
+.clearfix::after {
   content: "";
   display: table;
   clear: both;
@@ -173,7 +173,7 @@ header .nav-bottom .hamburger {
 
 /* section top */
 #section-top {
-  padding: 120px 50px 50px;
+  padding: 150px 50px 50px;
   background-image: url(../img/bg-home.jpg);
   background-size: cover;
 }
@@ -201,8 +201,7 @@ header .nav-bottom .hamburger {
 #section-top .left p {
   font-size: 1.5em;
   font-weight: 400;
-  color: #fff;
-  opacity: 0.6;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 #section-top form {
@@ -308,5 +307,52 @@ header .nav-bottom .hamburger {
     width: 100%;
     float: none;
     margin-top: 50px;
+  }
+}
+
+/* section customers */
+#customers {
+  padding: 50px;
+  background-color: #f3f5f9;
+  text-align: center;
+}
+
+#customers h3 {
+  color: #808080;
+  text-transform: uppercase;
+}
+
+#customers li {
+  display: inline-block;
+  width: calc((100% / 6) - 4px);
+}
+
+#customers li img {
+  width: 80%;
+  vertical-align: middle;
+}
+
+#customers a {
+  display: inline-block;
+  margin-top: 25px;
+  color: #0080ff;
+}
+
+#customers a:hover {
+  color: #031b4e;
+}
+
+/* media query section customers */
+@media screen and (max-width: 767px) {
+
+  #customers li {
+    width: calc((100% / 3) - 4px);
+  }
+}
+
+@media screen and (max-width: 479px) {
+
+  #customers li {
+    width: calc((100% / 2) - 4px);
   }
 }
