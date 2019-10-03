@@ -405,10 +405,7 @@ header .nav-bottom .hamburger {
   border-left: 2px solid #0080ff;
 }
 
-#deploy-scale .box1,
-#deploy-scale .box2,
-#deploy-scale .box3,
-#deploy-scale .box4 {
+#deploy-scale .box {
   width: 50%;
   float: left;
   padding-right: 40px;
@@ -452,10 +449,7 @@ header .nav-bottom .hamburger {
 
 @media screen and (max-width: 479px) {
 
-  #deploy-scale .box1,
-  #deploy-scale .box2,
-  #deploy-scale .box3,
-  #deploy-scale .box4 {
+  #deploy-scale .box {
     width: 100%;
     float: none;
   }
@@ -516,7 +510,7 @@ header .nav-bottom .hamburger {
 #business .box {
   width: 25%;
   padding-right: 50px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   float: left;
 }
 
