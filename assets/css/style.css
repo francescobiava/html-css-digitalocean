@@ -562,11 +562,13 @@ header .nav-bottom .hamburger {
   width: 48%;
   float: left;
   margin-right: 4%;
+  margin-bottom: 25px;
 }
 
 #data-centers .right {
   width: 48%;
   float: left;
+  margin-bottom: 25px;
 }
 
 #data-centers table {
@@ -610,4 +612,19 @@ header .nav-bottom .hamburger {
 
 #data-centers a:hover {
   color: #0080ff;
+}
+
+/* media query section data-centers */
+@media screen and (max-width: 959px) {
+
+  #data-centers h2 {
+    margin: 0;
+    margin-bottom: 50px;
+  }
+
+  #data-centers .left,
+  #data-centers .right {
+    width: 100%;
+    float: none;
+  }
 }
