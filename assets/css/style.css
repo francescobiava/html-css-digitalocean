@@ -359,7 +359,7 @@ header .nav-bottom .hamburger {
 
 /* section deploy-scale */
 #deploy-scale {
-  padding: 100px 75px;
+  padding: 100px 75px 0;
 }
 
 #deploy-scale > h2 {
@@ -402,4 +402,31 @@ header .nav-bottom .hamburger {
 #deploy-scale .left a:hover {
   color: #031b4e;
   border-left: 2px solid #0080ff;
+}
+
+#deploy-scale .box1,
+#deploy-scale .box2,
+#deploy-scale .box3,
+#deploy-scale .box4 {
+  width: 50%;
+  float: left;
+  padding-right: 40px;
+  margin-bottom: 50px;
+}
+
+#deploy-scale .right img {
+  width: 50px;
+}
+
+#deploy-scale .right h4 {
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #031b4e;
+  margin: 10px 0;
+}
+
+#deploy-scale .right p {
+  font-size: 1em;
+  font-weight: 400;
+  color: rgba(3, 27, 78, 0.6);
 }
