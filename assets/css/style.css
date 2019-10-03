@@ -535,11 +535,20 @@ header .nav-bottom .hamburger {
 }
 
 /* media query section business */
+@media screen and (max-width: 959px) {
+
+  #business .box {
+    width: 50%;
+    height: 250px;
+  }
+}
+
 @media screen and (max-width: 767px) {
 
   #business .box {
     width: 100%;
     float: none;
+    height: auto;
   }
 }
 
