@@ -631,3 +631,57 @@ header .nav-bottom .hamburger {
     float: none;
   }
 }
+
+/* section reviews */
+#reviews {
+  padding: 100px 50px;
+  background-color: #f3f5f9;
+  text-align: center;
+}
+
+#reviews h2 {
+  font-size: 2.5em;
+  font-weight: 800;
+  color: #031b4e;
+  margin-bottom: 25px;
+}
+
+#reviews > p {
+  font-size: 1em;
+  color: rgba(3, 27, 78, 0.6);
+}
+
+#reviews a {
+  color: #0080ff;
+  text-decoration: underline;
+}
+
+#reviews .content {
+  max-width: 80%;
+  margin: 25px auto 0;
+  padding: 25px;
+  background-color: #fff;
+}
+
+#reviews .content img {
+  width: 200px;
+  margin-bottom: 25px;
+}
+
+#reviews .content p {
+  font-size: 1.2em;
+  font-weight: 400;
+  color: rgba(3, 27, 78, 0.6);
+}
+
+#reviews .content .small {
+  font-size: 1em;
+  font-weight: 800;
+  padding: 25px 0;
+}
+
+#reviews .content a {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 25px;
+}
