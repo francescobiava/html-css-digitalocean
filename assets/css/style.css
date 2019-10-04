@@ -721,3 +721,31 @@ header .nav-bottom .hamburger {
 #get-started a:hover {
   opacity: 0.8;
 }
+
+/* footer */
+footer {
+  padding: 100px;
+  background-color: #010e28;
+}
+
+#footer-top .box {
+  width: 20%;
+  float: left;
+  padding-right: 25px;
+}
+
+#footer-top li {
+  font-size: 1em;
+  color: #fff;
+  padding: 5px 0;
+}
+
+#footer-top a {
+  font-size: 0.9em;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+#footer-top a:hover {
+  color: #fff;
+}
