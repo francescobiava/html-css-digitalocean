@@ -815,3 +815,13 @@ footer {
 #footer-bottom .right a:hover {
   color: #fff;
 }
+
+/* media query footer-bottom */
+@media screen and (max-width: 959px) {
+
+  #footer-bottom .left,
+  #footer-bottom .right {
+    width: 100%;
+    float: none;
+  }
+}
