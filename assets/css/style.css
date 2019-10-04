@@ -724,11 +724,15 @@ header .nav-bottom .hamburger {
 
 /* footer */
 footer {
-  padding: 100px;
   background-color: #010e28;
 }
 
 /* footer-top */
+#footer-top {
+  padding: 100px;
+  padding-bottom: 50px;
+}
+
 #footer-top .box {
   width: 20%;
   float: left;
@@ -766,4 +770,48 @@ footer {
     width: 100%;
     float: none;
   }
+}
+
+/* footer-bottom */
+#footer-bottom {
+  padding: 50px 25px;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+#footer-bottom .left {
+  width: 50%;
+  float: left;
+}
+
+#footer-bottom .right {
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+
+#footer-bottom .left a {
+  font-size: 3em;
+  color: #0080ff;
+}
+
+#footer-bottom .left p {
+  display: inline-block;
+  font-size: 0.8em;
+  margin-left: 10px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+#footer-bottom .right li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+#footer-bottom .right a {
+  font-size: 1.75em;
+  line-height: 3em;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+#footer-bottom .right a:hover {
+  color: #fff;
 }
