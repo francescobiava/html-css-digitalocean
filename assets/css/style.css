@@ -728,10 +728,12 @@ footer {
   background-color: #010e28;
 }
 
+/* footer-top */
 #footer-top .box {
   width: 20%;
   float: left;
   padding-right: 25px;
+  margin-bottom: 25px;
 }
 
 #footer-top li {
@@ -748,4 +750,20 @@ footer {
 
 #footer-top a:hover {
   color: #fff;
+}
+
+/* media query footer-top */
+@media screen and (max-width: 959px) {
+
+  #footer-top .box {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+
+  #footer-top .box {
+    width: 100%;
+    float: none;
+  }
 }
